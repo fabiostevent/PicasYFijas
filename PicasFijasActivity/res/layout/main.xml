@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="15dp"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txtUrl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text=".:PICAS Y FIJAS:."
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/n1"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:digits="1,2,3,4,5,6,7,8,9"
+        android:ems="10"
+        android:selectAllOnFocus="false" />
+
+    <EditText
+        android:id="@+id/n2"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:digits="0,1,2,3,4,5,6,7,8,9"
+        android:selectAllOnFocus="false" />
+
+    <EditText
+        android:id="@+id/n3"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content" 
+        android:inputType="number"
+        android:digits="0,1,2,3,4,5,6,7,8,9"
+        android:selectAllOnFocus="false" />
+
+    <EditText
+        android:id="@+id/n4"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content" 
+        android:inputType="number"
+        android:digits="0,1,2,3,4,5,6,7,8,9"
+        android:selectAllOnFocus="false" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/conConexion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Internet" />
+
+        <Button
+            android:id="@+id/sinConexion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Local" />
+
+        <Button
+            android:id="@+id/salir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Salir" />
+
+        <Button
+            android:id="@+id/urlMain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Editar url" />
+
+    </LinearLayout>
+
+</LinearLayout>
